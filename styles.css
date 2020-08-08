@@ -13,6 +13,7 @@
     border: black solid 1px;
     background-color: grey;
     font-size: 55px;
+    direction: rtl;
 }
 
 #grid-container {
@@ -47,5 +48,24 @@
     font-size: 20px;
 }
 
+#backspace-image {
+    height: 20px;
+    width: 20px;
+}
 
-        
+#backspace {
+    border:0;
+    background:transparent;
+    position: relative;
+    right: 5px;
+    bottom: 75px;
+
+}        
+
+#number-display {
+    height: 72px;
+    margin: 0 0 0 0;
+    width: 200px;
+    position: relative;
+    right: 40px;
+}
